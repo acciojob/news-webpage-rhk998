@@ -21,19 +21,36 @@ header {
 	color:white;
 }
 
-.latest-news {
+.latest-news-section {
     grid-area: latest-news;
-	justify-content:center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px; /* Add border radius */
 }
 
-.main-article {
+/* .main-article {
     grid-area: main-article;
     text-align: center;
+} */
+.main-article {
+    grid-area: main-article;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px; /* Add border radius */
 }
 
-.pictorial-news {
+.pictorial-news-section {
     grid-area: pictorial-news;
-    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    width: 100%;
+    text-align: center; /* Ensure text-align is set to center */
+    border-radius: 10px; /* Add border radius */
 }
 
 h2, h3 {
