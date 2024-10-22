@@ -1,1 +1,56 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "latest-news main-article pictorial-news";
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+header {
+    grid-area: header;
+    text-align: center;
+}
+
+.latest-news {
+    grid-area: latest-news;
+}
+
+.main-article {
+    grid-area: main-article;
+    text-align: center;
+}
+
+.pictorial-news {
+    grid-area: pictorial-news;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 0;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+}
+
+figure {
+    margin: 0;
+    padding: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
